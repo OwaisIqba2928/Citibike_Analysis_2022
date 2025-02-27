@@ -1,2 +1,0 @@
-# Citibike_Analysis_2022
-CitiBike_Analysis_Dashboard_2022
