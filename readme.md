@@ -16,20 +16,31 @@ This project focuses on:
 ✅ Extracting insights about station usage, peak routes, and weather influence 🌡️
 
 📊 Key Insights
+
 🔹 Busiest Routes
+
 🚴 1 Ave & E 110 St → 1 Ave & E 94 St recorded a high trip count of 15 trips.
+
 🔄 Round trips starting and ending at 1 Ave & E 110 St were the most frequent, totaling 27 trips.
 
 🔹 Key Stations
+
 🏆 1 Ave & E 110 St emerged as a major hub with the highest trip counts.
+
 📍 Popularity suggests proximity to residential, business, or recreational areas.
 
 🔹 Weather Impact
+
 🌡️ Temperature and precipitation trends can be explored to determine their correlation with bike usage.
 
 🛠️ Technologies Used
+
 🔹 Python 🐍 - Data analysis and processing
+
 🔹 Pandas 📝 - Data manipulation
+
 🔹 Seaborn & Matplotlib 📊 - Data visualization
+
 🔹 Kepler.gl 🌍 - Interactive maps
+
 🔹 Jupyter Notebook 📓 - Code execution and documentation
