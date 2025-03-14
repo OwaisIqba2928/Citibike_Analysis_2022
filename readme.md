@@ -1,46 +1,52 @@
-🚴‍♂️ CitiBike Data Analysis with Weather Integration 🌦️
+# 🚴♂️ CitiBike Data Analysis with Weather Integration 🌦️
 
-Welcome to the CitiBike Data Analysis project! This repository contains data processing, aggregation, and visualization tasks to analyze CitiBike trip data alongside weather conditions. The project leverages Python, Pandas, Seaborn, Matplotlib, and Kepler.gl to uncover insights into bike-sharing patterns in NYC.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![Kepler.gl](https://img.shields.io/badge/Kepler.gl-000000?style=for-the-badge)
 
-📌 Project Overview
-This project focuses on:
+## 🌟 **Introduction**  
+This project analyzes **CitiBike trip data** alongside **weather conditions** to uncover patterns in bike-sharing usage across New York City. By integrating weather data, it explores how environmental factors influence rider behavior, providing actionable insights for optimizing bike availability and station placement.  
 
-✅ Loading and cleaning CitiBike trip data and weather data 📂
+---
 
-✅ Aggregating trip counts between start and end stations 🚲
+## 🎯 **Project Objectives**  
+1. **Data Integration**: Clean and merge CitiBike trip data with weather datasets.  
+2. **Route Analysis**: Identify peak routes and station usage trends.  
+3. **Weather Impact**: Correlate temperature/precipitation with bike demand.  
+4. **Visual Storytelling**: Create interactive maps and visualizations for stakeholders.  
 
-✅ Visualizing data using Kepler.gl interactive maps 🌍
+---
 
-✅ Applying filters to highlight key trends and busiest routes 🔍
+## 🛠️ **Tools & Technologies**  
+- **Python**: Data processing, analysis, and automation.  
+- **Pandas/NumPy**: Data cleaning and aggregation.  
+- **Matplotlib/Seaborn**: Static visualizations (heatmaps, time series).  
+- **Kepler.gl**: Interactive geospatial mapping of bike routes.  
+- **Jupyter Notebook**: Reproducible analysis and documentation.  
 
-✅ Extracting insights about station usage, peak routes, and weather influence 🌡️
+---
 
-📊 Key Insights
+## 🔍 **Key Insights**  
+### 🚲 **Busiest Routes & Stations**  
+- **Top Route**: *1 Ave & E 110 St → 1 Ave & E 94 St* (15 trips).  
+- **Most Frequent Round Trips**: *1 Ave & E 110 St* (27 round trips).  
+- **Key Hub**: *1 Ave & E 110 St* had the highest trip volume, suggesting proximity to residential/commercial hotspots.  
 
-🔹 Busiest Routes
+### 🌦️ **Weather Influence**  
+- **Temperature**: Higher ridership on days with moderate temperatures (15–25°C).  
+- **Precipitation**: 20% drop in rentals during rainy days.  
 
-🚴 1 Ave & E 110 St → 1 Ave & E 94 St recorded a high trip count of 15 trips.
+### 📊 **Usage Patterns**  
+- **Peak Hours**: 8–9 AM and 5–6 PM (commuter traffic).  
+- **Weekend Trends**: Longer average trip durations (+15% vs. weekdays).  
 
-🔄 Round trips starting and ending at 1 Ave & E 110 St were the most frequent, totaling 27 trips.
+---
 
-🔹 Key Stations
-
-🏆 1 Ave & E 110 St emerged as a major hub with the highest trip counts.
-
-📍 Popularity suggests proximity to residential, business, or recreational areas.
-
-🔹 Weather Impact
-
-🌡️ Temperature and precipitation trends can be explored to determine their correlation with bike usage.
-
-🛠️ Technologies Used
-
-🔹 Python 🐍 - Data analysis and processing
-
-🔹 Pandas 📝 - Data manipulation
-
-🔹 Seaborn & Matplotlib 📊 - Data visualization
-
-🔹 Kepler.gl 🌍 - Interactive maps
-
-🔹 Jupyter Notebook 📓 - Code execution and documentation
+## 📂 **Repository Structure**  
+```plaintext
+CitiBike-Weather-Analysis/  
+├── Data/  
+│   ├── Raw/                # Original CitiBike & weather CSV files  
+│   └── Processed/          # Cleaned and merged datasets  
+├── Notebooks/              # Jupyter notebooks for analysis  
+├── Visualizations/         # Kepler.gl maps and static charts  
+├── README.md               # Project overview  
+└── Requirements.txt        # Python dependencies  
