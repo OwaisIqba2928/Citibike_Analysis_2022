@@ -1,9 +1,12 @@
 # 🚴♂️ CitiBike Data Analysis with Weather Integration 🌦️
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![Kepler.gl](https://img.shields.io/badge/Kepler.gl-000000?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 
 ## 🌟 **Introduction**  
 This project analyzes **CitiBike trip data** alongside **weather conditions** to uncover patterns in bike-sharing usage across New York City. By integrating weather data, it explores how environmental factors influence rider behavior, providing actionable insights for optimizing bike availability and station placement.  
+
+🔗 **Explore the Interactive Dashboard:**  
+[![Streamlit Dashboard](https://img.shields.io/badge/Explore_Live_Dashboard-FF4B4B)](https://citibikeanalysis2022-ezcanh3kauapcsaxn4uf4d.streamlit.app/)
 
 ---
 
@@ -19,8 +22,8 @@ This project analyzes **CitiBike trip data** alongside **weather conditions** to
 - **Python**: Data processing, analysis, and automation.  
 - **Pandas/NumPy**: Data cleaning and aggregation.  
 - **Matplotlib/Seaborn**: Static visualizations (heatmaps, time series).  
-- **Kepler.gl**: Interactive geospatial mapping of bike routes.  
-- **Jupyter Notebook**: Reproducible analysis and documentation.  
+- **Streamlit**: Interactive web dashboard deployment.  
+- **Kepler.gl**: Geospatial mapping of bike routes.  
 
 ---
 
@@ -48,5 +51,6 @@ CitiBike-Weather-Analysis/
 │   └── Processed/          # Cleaned and merged datasets  
 ├── Notebooks/              # Jupyter notebooks for analysis  
 ├── Visualizations/         # Kepler.gl maps and static charts  
+├── dashboard.py            # Streamlit app script  
 ├── README.md               # Project overview  
-└── Requirements.txt        # Python dependencies  
+└── requirements.txt        # Python dependencies  
